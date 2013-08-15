@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* Created by josefzacek.com */
+/* CSS Document */
+
+header, article, section, nav {
+	display:block;
+}
+
+body {
+	background:#15178b;
+	margin: 0px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+a:link,a:visited,a:hover,a:active {
+	color: #FFF;
+	
+}
+a {
+   outline: 0;
+}
+a img {
+   border:none;
+}
+h1 {
+	font-size:22px;
+	font-weight: normal;
+}
+	
+#wrapper {
+	width:959px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(images/background1.jpg);
+	background-repeat:no-repeat;
+}
+
+#email_top {
+	margin-left: 40px;
+	margin-top: 214px;
+	height: 28px;
+	margin-bottom: 50px;
+	background-image: url(images/email_icon.png);
+	float: left;
+	background-repeat: no-repeat;
+}
+#email_top p {
+	margin-left:30px;
+	margin-top:6px;
+}
+section {
+	margin-left: 40px;
+	width: 300px;
+	float: left;
+	clear: both;
+}
+nav {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.icons {
+	margin-left: 40px;
+	margin-top:10px;
+	float: left;
+	clear: both;
+}
+
+.clear {
+	clear:both;
+}
+	
